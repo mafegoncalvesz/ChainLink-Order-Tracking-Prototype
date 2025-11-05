@@ -1,0 +1,163 @@
+ CHAINLINK OPERATIONS SYSTEM - DEMONSTRATION
+================================================================================
+Blockchain-Based Internal Collaboration for OneStop
+================================================================================
+
+📱 Simulating Order #12345 (Ana - Marketing Specialist - Laptop)
+--------------------------------------------------------------------------------
+
+🏢 Simulating Order #67890 (Erick - B2B Purchasing Manager - Bulk Supplies)
+--------------------------------------------------------------------------------
+
+================================================================================
+ORDER #12345 - COMPLETE JOURNEY
+================================================================================
+
+📦 Block 1
+   🕐 Timestamp: 2025-10-29 20:13:14
+   ⏱️  Time Elapsed: 0.0 hours
+   📍 Location: Brisbane Office
+   ✅ Action: Order Received
+   📝 Details: {'customer': 'Ana', 'product': 'Laptop', 'employee': 'Sarah J'}
+   🔐 Hash: 53cfd078b1f79bb4...
+   🔗 Previous Hash: 3f48e4d373334bb8...
+
+📦 Block 2
+   🕐 Timestamp: 2025-10-29 22:13:14
+   ⏱️  Time Elapsed: 2.0 hours
+   📍 Location: Sydney Warehouse
+   ✅ Action: Items Picked
+   📝 Details: {'picker': 'John D', 'quantity': '1 unit'}
+   🔐 Hash: aef2cce42c2faba4...
+   🔗 Previous Hash: 53cfd078b1f79bb4...
+
+📦 Block 3
+   🕐 Timestamp: 2025-10-29 23:43:14
+   ⏱️  Time Elapsed: 3.5 hours
+   📍 Location: Sydney Warehouse
+   ✅ Action: Items Packed
+   📝 Details: {'packer': 'Maria K', 'box_id': 'BOX-7821'}
+   🔐 Hash: 02f8786ef439e3b5...
+   🔗 Previous Hash: aef2cce42c2faba4...
+
+📦 Block 4
+   🕐 Timestamp: 2025-10-31 04:13:14
+   ⏱️  Time Elapsed: 32.0 hours
+   📍 Location: Logistics Partner (AusPost)
+   ✅ Action: Package Dispatched
+   📝 Details: {'tracking': 'AP123456789AU', 'driver': 'Mike T'}
+   🔐 Hash: 45fcd1f8c68284d1...
+   🔗 Previous Hash: 02f8786ef439e3b5...
+
+📦 Block 5
+   🕐 Timestamp: 2025-11-01 07:13:14
+   ⏱️  Time Elapsed: 59.0 hours
+   📍 Location: Customer Location (Brisbane)
+   ✅ Action: Delivered Successfully
+   📝 Details: {'recipient': 'Ana', 'signature': 'Confirmed'}
+   🔐 Hash: 9151c3d1bfba400b...
+   🔗 Previous Hash: 45fcd1f8c68284d1...
+
+--------------------------------------------------------------------------------
+⏱️  TOTAL DELIVERY TIME: 2 days, 11 hours
+================================================================================
+
+
+================================================================================
+ORDER #67890 - COMPLETE JOURNEY
+================================================================================
+
+📦 Block 6
+   🕐 Timestamp: 2025-10-27 20:13:14
+   ⏱️  Time Elapsed: 0.0 hours
+   📍 Location: Melbourne Office
+   ✅ Action: B2B Order Received
+   📝 Details: {'customer': 'Erick Corp', 'value': '$15,000', 'priority': 'HIGH'}
+   🔐 Hash: f4a7abaab4d223d1...
+   🔗 Previous Hash: 9151c3d1bfba400b...
+
+📦 Block 7
+   🕐 Timestamp: 2025-10-27 21:13:14
+   ⏱️  Time Elapsed: 1.0 hours
+   📍 Location: Melbourne Warehouse
+   ✅ Action: Items Picked (Bulk)
+   📝 Details: {'items': 'Office supplies x500', 'pallets': '4'}
+   🔐 Hash: 51d22116240d543f...
+   🔗 Previous Hash: f4a7abaab4d223d1...
+
+📦 Block 8
+   🕐 Timestamp: 2025-10-28 20:13:14
+   ⏱️  Time Elapsed: 24.0 hours
+   📍 Location: Melbourne Warehouse
+   ✅ Action: Quality Check Completed
+   📝 Details: {'inspector': 'Linda P', 'status': 'PASSED'}
+   🔐 Hash: ccd0f07a14db8c9c...
+   🔗 Previous Hash: 51d22116240d543f...
+
+📦 Block 9
+   🕐 Timestamp: 2025-10-29 00:13:14
+   ⏱️  Time Elapsed: 28.0 hours
+   📍 Location: Logistics Partner (StarTrack)
+   ✅ Action: Freight Dispatched
+   📝 Details: {'vehicle': 'TRUCK-45', 'driver': 'Tom R'}
+   🔐 Hash: 9fbe324f3ff0e55c...
+   🔗 Previous Hash: ccd0f07a14db8c9c...
+
+📦 Block 10
+   🕐 Timestamp: 2025-10-31 05:13:14
+   ⏱️  Time Elapsed: 81.0 hours
+   📍 Location: Erick Corp Warehouse (Sydney)
+   ✅ Action: Delivered & Signed
+   📝 Details: {'recipient': 'Erick', 'invoice': 'INV-67890'}
+   🔐 Hash: ca5a1be453fe10e0...
+   🔗 Previous Hash: 9fbe324f3ff0e55c...
+
+--------------------------------------------------------------------------------
+⏱️  TOTAL DELIVERY TIME: 3 days, 9 hours
+================================================================================
+
+
+🔐 BLOCKCHAIN VALIDATION
+================================================================================
+✅ BLOCKCHAIN VALID - No tampering detected
+   All blocks are cryptographically linked and verified
+================================================================================
+
+
+  TAMPERING DETECTION DEMONSTRATION
+================================================================================
+Attempting to modify Block 4 (Logistics dispatch for Order #12345)...
+❌ Modified: 'Package Dispatched' → 'PACKAGE LOST'
+
+❌ TAMPERING DETECTED at Block 4: Hash mismatch!
+ TAMPERING DETECTED!
+   The blockchain's cryptographic integrity has been violated
+   Any attempt to alter records is immediately visible
+   This ensures complete accountability across all offices
+
+ Block restored to original state
+================================================================================
+
+
+ KEY BENEFITS FOR ONESTOP
+================================================================================
+✅ Complete Visibility: Every office sees real-time order status
+✅ Accountability: Immutable records show exactly who did what and when
+✅ Faster Resolution: Customer service instantly knows order location
+✅ B2B Compliance: Erick's company gets auditable chain of custody
+✅ Analytics Ready: Data reveals bottlenecks and inefficiencies
+✅ Tamper-Proof: Cryptographic security prevents record manipulation
+================================================================================
+
+
+📊 SUMMARY STATISTICS
+================================================================================
+Total Blocks in Chain: 11
+Orders Tracked: 2 (Order #12345, Order #67890)
+Offices/Locations: 5 (Brisbane, Sydney, Melbourne, Logistics, Customers)
+Chain Integrity: ✅ VALID
+================================================================================
+
+🎯 ASSESSMENT 2 DEMONSTRATION COMPLETE
+This prototype demonstrates blockchain-based internal collaboration
+solving OneStop's coordination problems identified in Assessment 1.
